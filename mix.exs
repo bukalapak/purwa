@@ -1,9 +1,9 @@
-defmodule Edan.Mixfile do
+defmodule Purwa.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :edan,
+      app: :purwa,
       version: "0.0.1",
       deps: deps(),
       elixir: "~> 1.5",
@@ -16,12 +16,12 @@ defmodule Edan.Mixfile do
 
   defp package do
     [
-      name: :edan,
+      name: :purwa,
       files: ["lib", "mix.exs", "README.md", "LICENSE.md", "template"],
       maintainers: ["Abdul Somat Budiaji <abdul.somat@bukalapak.com>"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/bukalapak/edan",
+        "GitHub" => "https://github.com/bukalapak/purwa",
       },
     ]
   end

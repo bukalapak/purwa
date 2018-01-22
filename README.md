@@ -1,6 +1,6 @@
-# Edan
+# Purwa
 
-Edan is a boilerplate for new microservice projects in Elixir following Bukalapak guideline.
+Purwa is a boilerplate for new microservice projects in Elixir following Bukalapak guideline.
 
 ## Highlights
 
@@ -14,20 +14,20 @@ Edan is a boilerplate for new microservice projects in Elixir following Bukalapa
 
 ## Install
 
-_Note that Edan requires Elixir 1.5.0+._
+_Note that Purwa requires Elixir 1.5.0+._
 
 [How to install elixir?](https://elixir-lang.org/install.html)
 
 ```
 $ mix archive.install hex mix_generator
 $ mix archive.install hex mix_templates
-$ mix template.install github bukalapak/edan
+$ mix template.install github bukalapak/purwa
 ```
 
 ## Use
 
 ```
-$ mix gen edan <your_project_name>
+$ mix gen purwa <your_project_name>
 $ cd <your_project_name>
 $ make setup
 ```
